@@ -19,6 +19,6 @@ if __name__ == "__main__":
     message = (
         "THE FOLLOWING MESSAGE IS SENT VIA A BOT:\n\n"
         "🗑️ Reminder: Please take out the trash today (Thursday)! 🗑️\n\n"
-        "Please place the trash in front of the door. Let's keep our place clean and tidy. Thank you! 😊"
+        "Please move the trash bins from the back of the house to the street curb at 1152. Let's keep our place clean and tidy. Thank you! 😊"
     )
     send_message(message)

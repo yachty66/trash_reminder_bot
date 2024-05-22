@@ -1,8 +1,8 @@
 name: Run app.py every Thursday at 6 AM PT
 
 on:
-  schedule:
-    - cron: '14 14 * * 4'  # Runs at 14:00 UTC every Thursday (6 AM PT)
+  # schedule:
+  #   - cron: '14 14 * * 4'  # Runs at 14:00 UTC every Thursday (6 AM PT)
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:

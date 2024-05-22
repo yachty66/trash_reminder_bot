@@ -1,8 +1,8 @@
 name: Run trash_in.py every Tuesday at 9 AM PT
 
 on:
-  schedule:
-      - cron: '16 16 * * 5'  # Runs at 16:00 UTC every Friday (9 AM PT)
+  # schedule:
+  #     - cron: '16 16 * * 5'  # Runs at 16:00 UTC every Friday (9 AM PT)
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
